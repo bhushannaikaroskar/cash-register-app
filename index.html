@@ -13,34 +13,34 @@
         <p class="description">
             Enter the bill amount and cash given by the customer and know minimum number of notes to return.
         </p>
-        <label for="">Bill Amount</label>
-        <input type="text" id="bill-amount"/>
-        <label for="">Cash Amount</label>
-        <input type="text" id="cash-amount"/>
+        <label for="">Bill Amount</label><input class="text-input" type="number" id="bill-amount"/>
+        <label for="">Cash Amount</label><input class="text-input" type="number" id="cash-amount"/>
         <div id="error-message"></div>
-        <button id="check-button">Check</button>
-        <table>
-            <tr>
-                <th>No of Notes</th>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-            </tr>
-            <tr>
-                <th>Notes</th>
-                <td>2000</td>
-                <td>500</td>
-                <td>100</td>
-                <td>20</td>
-                <td>10</td>
-                <td>5</td>
-                <td>1</td>
-            </tr>
-        </table>
+        <button id="check-button" class="button-primary">Check</button>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                </tr>
+                <tr>
+                    <th>Notes</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
