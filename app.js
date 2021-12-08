@@ -18,11 +18,7 @@ checkButton.addEventListener("click",()=>{
             showMessage("Cash Amount should be greater than bill");
         }
     }else{
-        if(typeof(billAmount.value) === "number"){
-            showMessage("Bill Amount should be greater than zero.");
-        }else{
-            showMessage("Please enter numeric value");
-        }
+        showMessage("Bill Amount should be greater than zero.");
     }
 });
 
